@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 50px 20vw;
+  text-align: center;
+
+  color: rgb(51, 26, 0);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.rules p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+.todolist-container {
+  background-color: beige;
+  padding: 30px;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+input[type="submit"] {
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+.display-todo p {
+  cursor: pointer;
+  padding: 10px 30px;
+  margin: 20px;
+}
